@@ -1,0 +1,15 @@
+### Ignore ###
+.ds_store
+.idea
+.env
+__pycache__
+poetry.lock
+#**/static/*
+**/staticfiles
+
+# Ignore generated files
+**/*.pyc
+
+### Allow ###
+!.env.example
+#!**/static/.gitkeep
